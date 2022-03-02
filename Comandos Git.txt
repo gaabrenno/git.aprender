@@ -68,3 +68,14 @@ Pull Request (um merge democrático)
           colocar o titulo (já vai estar a mensagem do commit) colocar uma mensagem e clicar em create pull request
           Agora é só aguradar os Reviewers aprovarem ou não o pull request e mergear os códigos
 
+
+
+Git Ignore (Ignorar arquivos que não quero enviar com o controle de verção)
+
+          touch .gitignore vai criar um arquivo .txt
+          digitar o nome do arquivo seguido de / no arquivo .gitignore
+          git add .
+          git commit -m "adicionando arquivo gitignore"
+
+https://www.youtube.com/watch?v=kB5e-gTAl_s
+Fim do curso 
