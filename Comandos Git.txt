@@ -56,4 +56,15 @@ Para passar o código de uma branch para a outra (da branch stanging para a mast
 
 git chechout -b nome-da-nova-branch master(comando que une o comando git branch stanging e git checkout criando e entrando uma nova branch)
 
-       
+
+Pull Request (um merge democrático)
+    Após editar a nova branch solicitar o pull request diretamente no GitHub
+          git add . (para adicionar as atualizações)
+          git commit -m "atualização"
+          git push (para mandar para a nuvem)
+    No GitHub verificar atualização na pagina do repositorio
+          Clicar no botão verde (compare & pull request)
+          Dizer de onde para onde eu quero mergiar
+          colocar o titulo (já vai estar a mensagem do commit) colocar uma mensagem e clicar em create pull request
+          Agora é só aguradar os Reviewers aprovarem ou não o pull request e mergear os códigos
+
