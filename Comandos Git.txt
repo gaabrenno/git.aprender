@@ -37,7 +37,23 @@ Navegando entre verções do código
 
 
 git reset --hard -> Voltando a uma verção anterior -> após apresentar codigo git reflog copiar ID da verção a ser restarurada
-       
+     
 
+
+Branch
+
+git branch -> vc vera quais brenchs estão abertas (se não tem nenhuma aparecerá apenas a principal, a master)
+git branch stanging (stanging é apenas o nome da nova branch)
+git checkout (nome da branch)
+ao criar uma nova branch e editar o código no momento de dar push ele pedira para rodar um novo código que o proprio git irá disponibilizar, basta copiar e colar.
+
+Merge
+Para passar o código de uma branch para a outra (da branch stanging para a master por exemplo)
+          git checkout master (passar para a branch que irá receber as atualizações)
+          git pull (para trazer as atualizações do servirdor para a maquina para não subir as atualizações em uma verção antiga
+          git merge staging (digrar a branch que irá ceder as atualizações)
+          git push (para subir as atualizações)
+
+git chechout -b nome-da-nova-branch master(comando que une o comando git branch stanging e git checkout criando e entrando uma nova branch)
 
        
