@@ -1,0 +1,41 @@
+git init (iniciar novo repositorio dentro de uma pasta (clicar em visualizar arquivos ocultos para visualizar repositorio .git)
+
+git status (visualizr estatus do repositorio)
+           Commits -> Verçoes do codigo
+           untracked files -> Arquivos que não foram adicionados ao controle de verção e mostra em vermelho quais arquivos não foram adicionados incluidos ao controle de verção.
+
+git add (adicionar arquivo ao controle de verção)
+           git add-> digitar comando seguido do nome do arquivo que deseja adicionar ao contro de verção entre aspas duplas (git add "meu codigo.txt" (o nome do arquivo estara em vermelho no "untracked files"))
+
+git add . (adicionando todos os arquivos pendentes ao controle de verção)
+
+git commit -m "" (criando verção do arquivo (entre aspas duplas colocar o que foi feito na verção))
+           git config --global user.email "gaabrenno@gamil.com"
+           git config --global user.name "Gabriel Brenno"
+git puhs (Enviar verção do arquivo para o repositorio no git hub)
+           criar repositorio no GitHub 
+           git remote add origin (colar link do repositorio)
+           git push -> copiar codigo disponibilizado e colar novamente dando enter
+           abrirá um popap do GitHub para logar (caso seja a primeira vez) 
+
+Criando nova verção (após editar codigo)
+
+git status (aparecerá em vermelho o arquivo que foi medificado)
+
+git add. (rodar comando git status para ter certeza que o arquivo foi adicionado)
+
+git commit -m "atualização" (entre aspas adicionar a modificação do codigo)
+
+git push 
+
+
+git reflog -> verificar historico de verções (verção atual esta no topo)
+
+
+
+https://www.youtube.com/watch?v=kB5e-gTAl_s 
+Continuar video em 23 minutos
+
+
+
+       
