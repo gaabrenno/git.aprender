@@ -32,10 +32,12 @@ git push
 git reflog -> verificar historico de verções (verção atual esta no topo)
 
 
+Navegando entre verções do código
 
-https://www.youtube.com/watch?v=kB5e-gTAl_s 
-Continuar video em 23 minutos
 
+
+git reset --hard -> Voltando a uma verção anterior -> após apresentar codigo git reflog copiar ID da verção a ser restarurada
+       
 
 
        
